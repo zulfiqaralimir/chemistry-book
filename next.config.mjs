@@ -3,6 +3,9 @@ import remarkMath from "remark-math";
 import remarkGfm from "remark-gfm";
 import rehypeKatex from "rehype-katex";
 import rehypePrettyCode from "rehype-pretty-code";
+// Side-effect import: registers the \ce{} macro (mhchem) on KaTeX so
+// notes.mdx can write real chemical equations, e.g. $\ce{2H2 + O2 -> 2H2O}$.
+import "katex/contrib/mhchem";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
