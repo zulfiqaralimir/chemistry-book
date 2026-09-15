@@ -5,7 +5,7 @@ export default function HomePage() {
   const topics = getAllTopicMeta();
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-16">
+    <div className="mx-auto max-w-4xl px-12 py-16">
       <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-indigo-500">
         Chemistry Book
       </p>
