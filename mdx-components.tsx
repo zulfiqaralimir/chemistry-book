@@ -42,19 +42,19 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     table: (props) => (
       <div className="my-12 overflow-x-auto rounded-2xl border border-slate-200 shadow-md dark:border-slate-800">
         <table
-          className="w-full border-collapse text-left text-xl [&_tbody_tr:last-child>td]:border-b-0 [&_tbody_tr:nth-child(even)]:bg-slate-50/70 dark:[&_tbody_tr:nth-child(even)]:bg-slate-900/40"
+          className="w-full table-fixed border-collapse text-left text-xl [&_tbody_tr:last-child>td]:border-b-0 [&_tbody_tr:nth-child(even)]:bg-slate-50/70 dark:[&_tbody_tr:nth-child(even)]:bg-slate-900/40"
           {...props}
         />
       </div>
     ),
     th: (props) => (
       <th
-        className="bg-teal-700 px-6 py-4 font-semibold tracking-wide text-white first:rounded-tl-2xl last:rounded-tr-2xl dark:bg-teal-900"
+        className="break-words bg-teal-700 px-6 py-4 font-semibold tracking-wide text-white first:rounded-tl-2xl last:rounded-tr-2xl dark:bg-teal-900"
         {...props}
       />
     ),
     td: (props) => (
-      <td className="border-b border-slate-100 px-6 py-4 text-slate-700 dark:border-slate-800 dark:text-slate-300" {...props} />
+      <td className="break-words border-b border-slate-100 px-6 py-4 align-top text-slate-700 dark:border-slate-800 dark:text-slate-300" {...props} />
     ),
     hr: (props) => <hr className="my-8 border-slate-200 dark:border-slate-800" {...props} />,
     a: (props) => (
