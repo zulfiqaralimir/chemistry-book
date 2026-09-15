@@ -43,8 +43,8 @@ export function TabbedSections({
             aria-selected={active === s.key}
             onClick={() => setActive(s.key)}
             className={clsx(
-              "rounded-t-md px-4 py-2 font-medium transition-colors",
-              size === "lg" ? "text-sm" : "text-xs",
+              "rounded-t-md px-5 py-3 font-semibold transition-colors",
+              size === "lg" ? "text-xl" : "text-base",
               active === s.key
                 ? "border-b-2 border-teal-600 text-teal-700 dark:border-teal-400 dark:text-teal-300"
                 : "text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200"
