@@ -15,12 +15,12 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       <p className="mb-4 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
     ),
     ul: (props) => (
-      <ul className="mb-4 ml-16 list-outside list-disc space-y-2 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
+      <ul className="mb-4 ml-20 list-outside list-disc space-y-5 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
     ),
     ol: (props) => (
-      <ol className="mb-4 ml-16 list-outside list-decimal space-y-2 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
+      <ol className="mb-4 ml-20 list-outside list-decimal space-y-5 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
     ),
-    li: (props) => <li className="pl-3 leading-[2.6]" {...props} />,
+    li: (props) => <li className="leading-[2.6]" {...props} />,
     blockquote: (props) => (
       <blockquote
         className="mb-4 border-l-4 border-indigo-400 bg-indigo-50 py-2 pl-4 text-xl italic text-slate-700 dark:border-indigo-500 dark:bg-indigo-950/40 dark:text-slate-300"
@@ -40,15 +40,21 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       />
     ),
     table: (props) => (
-      <div className="mb-4 overflow-x-auto">
-        <table className="w-full border-collapse text-left text-xl" {...props} />
+      <div className="mb-6 overflow-x-auto rounded-xl border border-slate-200 shadow-sm dark:border-slate-800">
+        <table
+          className="w-full border-collapse text-left text-xl [&_tbody_tr:last-child>td]:border-b-0 [&_tbody_tr:nth-child(even)]:bg-slate-50 dark:[&_tbody_tr:nth-child(even)]:bg-slate-900/40"
+          {...props}
+        />
       </div>
     ),
     th: (props) => (
-      <th className="border-b border-slate-300 px-3 py-2 font-semibold text-slate-900 dark:border-slate-700 dark:text-slate-100" {...props} />
+      <th
+        className="bg-teal-600 px-4 py-3 font-semibold text-white first:rounded-tl-xl last:rounded-tr-xl dark:bg-teal-800"
+        {...props}
+      />
     ),
     td: (props) => (
-      <td className="border-b border-slate-100 px-3 py-2 text-slate-700 dark:border-slate-800 dark:text-slate-300" {...props} />
+      <td className="border-b border-slate-100 px-4 py-3 text-slate-700 dark:border-slate-800 dark:text-slate-300" {...props} />
     ),
     hr: (props) => <hr className="my-8 border-slate-200 dark:border-slate-800" {...props} />,
     a: (props) => (
