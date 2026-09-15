@@ -98,7 +98,7 @@ export default async function TopicPage({ params }: { params: { slug: string } }
   ];
 
   return (
-    <div className="w-full px-10 py-12 md:px-20 lg:px-32">
+    <div className="w-full px-12 py-12 md:px-28 lg:px-44">
       <div className="mb-2 flex flex-wrap gap-2">
         {meta.levels.map((level) => (
           <span
