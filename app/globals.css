@@ -33,8 +33,13 @@ body {
   line-height: 2.4;
 }
 
+.book-notes p,
 .book-notes ul,
-.book-notes ol {
+.book-notes ol,
+.book-notes li,
+.book-notes blockquote,
+.book-notes td,
+.book-notes th {
   font-size: inherit;
 }
 
