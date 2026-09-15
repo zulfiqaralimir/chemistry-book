@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" />
+  <g>
+    <circle cx="200" cy="180" r="10" fill="#4338ca" />
+    <text x="200" y="163" text-anchor="middle" font-size="12" fill="#1e293b" font-weight="700">p+</text>
+    <circle cx="218" cy="196" r="10" fill="#4338ca" />
+    <text x="218" y="179" text-anchor="middle" font-size="12" fill="#1e293b" font-weight="700">p+</text>
+    <circle cx="182" cy="196" r="10" fill="#64748b" />
+    <text x="182" y="179" text-anchor="middle" font-size="12" fill="#ffffff" font-weight="700">n</text>
+    <circle cx="200" cy="214" r="10" fill="#64748b" />
+    <text x="200" y="231" text-anchor="middle" font-size="12" fill="#ffffff" font-weight="700">n</text>
+  </g>
+  <text x="200" y="255" text-anchor="middle" font-size="13" fill="#334155" font-weight="600">nucleus</text>
+
+  <circle cx="70" cy="200" r="9" fill="#b45309" />
+  <text x="70" y="180" text-anchor="middle" font-size="12" fill="#1e293b" font-weight="700">e−</text>
+  <circle cx="330" cy="200" r="9" fill="#b45309" />
+  <text x="330" y="180" text-anchor="middle" font-size="12" fill="#1e293b" font-weight="700">e−</text>
+
+  <text x="200" y="380" text-anchor="middle" font-size="14" fill="#0f766e" font-weight="700">
+    Helium atom — 2 protons, 2 neutrons, 2 electrons
+  </text>
+</svg>

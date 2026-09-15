@@ -1,0 +1,53 @@
+{
+  "topic": "atomic-structure",
+  "slides": [
+    {
+      "id": "particles",
+      "title": "Three Subatomic Particles",
+      "bullets": [
+        "Proton: charge +1, mass 1, in the nucleus",
+        "Neutron: charge 0, mass 1, in the nucleus",
+        "Electron: charge -1, mass ~0, in shells around the nucleus"
+      ],
+      "note": "A neutral atom has equal numbers of protons and electrons."
+    },
+    {
+      "id": "atomic-mass-number",
+      "title": "Atomic Number and Mass Number",
+      "formula": "neutrons = A - Z",
+      "bullets": [
+        "Z (atomic number) = number of protons — defines the element",
+        "A (mass number) = protons + neutrons"
+      ]
+    },
+    {
+      "id": "isotopes",
+      "title": "Isotopes",
+      "bullets": [
+        "Same element, same protons, different neutrons",
+        "Identical chemistry, different mass and nuclear stability",
+        "Relative atomic mass = weighted average of isotope masses"
+      ]
+    },
+    {
+      "id": "electron-configuration",
+      "title": "Electron Configuration",
+      "formula": "Shell capacities: 2, 8, 8 (first 20 elements)",
+      "bullets": [
+        "Fill the innermost shell first",
+        "Outer shell electrons = valence electrons",
+        "Valence electrons determine chemical reactivity"
+      ]
+    },
+    {
+      "id": "ions",
+      "title": "Forming Ions",
+      "bullets": [
+        "Lose electrons -> positive ion (cation)",
+        "Gain electrons -> negative ion (anion)",
+        "Atoms gain/lose electrons to reach a full outer shell"
+      ],
+      "note": "Protons never change when an ion forms — only electrons move."
+    }
+  ]
+}
