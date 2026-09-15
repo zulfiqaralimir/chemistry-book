@@ -109,7 +109,7 @@ export default async function TopicPage({ params }: { params: { slug: string } }
           </span>
         ))}
       </div>
-      <h1 className="mb-3 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+      <h1 className="mb-3 text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
         {meta.title}
       </h1>
       {meta.heroImage && (
@@ -120,7 +120,7 @@ export default async function TopicPage({ params }: { params: { slug: string } }
           className="mb-6 w-full rounded-xl border border-slate-200 shadow-sm dark:border-slate-800"
         />
       )}
-      <p className="mb-10 max-w-3xl text-lg text-slate-600 dark:text-slate-400">{meta.summary}</p>
+      <p className="mb-10 max-w-3xl text-2xl text-slate-600 dark:text-slate-400">{meta.summary}</p>
 
       <ActiveSectionContent sections={sections} />
     </div>

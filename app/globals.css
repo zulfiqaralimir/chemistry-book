@@ -29,7 +29,7 @@ body {
 /* Book-style reading mode, used by every topic's Notes tab via ChapterPager */
 .book-notes {
   font-family: var(--font-reading), Georgia, serif;
-  font-size: 1.625rem;
+  font-size: 1.75rem;
   line-height: 1.75;
 }
 
