@@ -30,7 +30,7 @@ body {
 .book-notes {
   font-family: var(--font-reading), Georgia, serif;
   font-size: 1.75rem;
-  line-height: 2.6;
+  line-height: 1.5;
 }
 
 .book-notes p,
