@@ -57,11 +57,9 @@ export default async function TopicPage({ params }: { params: { slug: string } }
       key: "notes",
       label: "Notes",
       content: (
-        <div className="mx-auto max-w-3xl">
-          <ChapterPager storageKey={slug}>
-            <NotesMDX components={diagramComponents} />
-          </ChapterPager>
-        </div>
+        <ChapterPager storageKey={slug}>
+          <NotesMDX components={diagramComponents} />
+        </ChapterPager>
       ),
     },
     {
@@ -100,7 +98,7 @@ export default async function TopicPage({ params }: { params: { slug: string } }
   ];
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-12 md:px-10">
+    <div className="w-full px-6 py-12 md:px-10 lg:px-16">
       <div className="mb-2 flex flex-wrap gap-2">
         {meta.levels.map((level) => (
           <span
