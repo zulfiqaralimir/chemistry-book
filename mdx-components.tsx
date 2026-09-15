@@ -3,27 +3,27 @@ import type { MDXComponents } from "mdx/types";
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     h1: (props) => (
-      <h1 className="mt-10 mb-4 text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100" {...props} />
+      <h1 className="mt-10 mb-4 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100" {...props} />
     ),
     h2: (props) => (
-      <h2 className="mt-8 mb-3 text-2xl font-semibold tracking-tight text-slate-900 dark:text-slate-100" {...props} />
+      <h2 className="mt-8 mb-3 text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-100" {...props} />
     ),
     h3: (props) => (
-      <h3 className="mt-6 mb-2 text-xl font-semibold text-slate-900 dark:text-slate-100" {...props} />
+      <h3 className="mt-6 mb-2 text-2xl font-semibold text-slate-900 dark:text-slate-100" {...props} />
     ),
     p: (props) => (
-      <p className="mb-4 leading-relaxed text-slate-700 dark:text-slate-300" {...props} />
+      <p className="mb-4 text-lg leading-relaxed text-slate-700 dark:text-slate-300" {...props} />
     ),
     ul: (props) => (
-      <ul className="mb-4 ml-6 list-disc space-y-1 text-slate-700 dark:text-slate-300" {...props} />
+      <ul className="mb-4 ml-6 list-disc space-y-1 text-lg text-slate-700 dark:text-slate-300" {...props} />
     ),
     ol: (props) => (
-      <ol className="mb-4 ml-6 list-decimal space-y-1 text-slate-700 dark:text-slate-300" {...props} />
+      <ol className="mb-4 ml-6 list-decimal space-y-1 text-lg text-slate-700 dark:text-slate-300" {...props} />
     ),
     li: (props) => <li className="leading-relaxed" {...props} />,
     blockquote: (props) => (
       <blockquote
-        className="mb-4 border-l-4 border-indigo-400 bg-indigo-50 py-2 pl-4 italic text-slate-700 dark:border-indigo-500 dark:bg-indigo-950/40 dark:text-slate-300"
+        className="mb-4 border-l-4 border-indigo-400 bg-indigo-50 py-2 pl-4 text-lg italic text-slate-700 dark:border-indigo-500 dark:bg-indigo-950/40 dark:text-slate-300"
         {...props}
       />
     ),
