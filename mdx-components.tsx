@@ -12,15 +12,15 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       <h3 className="mt-6 mb-2 text-3xl font-semibold text-slate-900 dark:text-slate-100" {...props} />
     ),
     p: (props) => (
-      <p className="mb-4 text-xl leading-[2.4] text-slate-700 dark:text-slate-300" {...props} />
+      <p className="mb-4 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
     ),
     ul: (props) => (
-      <ul className="mb-4 ml-12 list-disc space-y-2 text-xl leading-[2.4] text-slate-700 dark:text-slate-300" {...props} />
+      <ul className="mb-4 ml-12 list-disc space-y-2 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
     ),
     ol: (props) => (
-      <ol className="mb-4 ml-12 list-decimal space-y-2 text-xl leading-[2.4] text-slate-700 dark:text-slate-300" {...props} />
+      <ol className="mb-4 ml-12 list-decimal space-y-2 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
     ),
-    li: (props) => <li className="pl-2 leading-[2.4]" {...props} />,
+    li: (props) => <li className="pl-2 leading-[2.6]" {...props} />,
     blockquote: (props) => (
       <blockquote
         className="mb-4 border-l-4 border-indigo-400 bg-indigo-50 py-2 pl-4 text-xl italic text-slate-700 dark:border-indigo-500 dark:bg-indigo-950/40 dark:text-slate-300"
@@ -41,7 +41,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ),
     table: (props) => (
       <div className="mb-4 overflow-x-auto">
-        <table className="w-full border-collapse text-left text-lg" {...props} />
+        <table className="w-full border-collapse text-left text-xl" {...props} />
       </div>
     ),
     th: (props) => (

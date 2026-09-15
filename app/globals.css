@@ -30,7 +30,7 @@ body {
 .book-notes {
   font-family: var(--font-reading), Georgia, serif;
   font-size: 1.75rem;
-  line-height: 2.4;
+  line-height: 2.6;
 }
 
 .book-notes p,
@@ -38,6 +38,7 @@ body {
 .book-notes ol,
 .book-notes li,
 .book-notes blockquote,
+.book-notes table,
 .book-notes td,
 .book-notes th {
   font-size: inherit;
