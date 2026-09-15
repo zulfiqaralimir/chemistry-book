@@ -144,7 +144,13 @@ body {
 @media (prefers-reduced-motion: no-preference) {
   .book-notes h2,
   .book-notes h3,
-  .book-notes h4 {
+  .book-notes h4,
+  .book-notes p,
+  .book-notes ul,
+  .book-notes ol,
+  .book-notes blockquote,
+  .book-notes figure,
+  .book-notes table {
     animation: bookRevealIn 0.7s ease both;
   }
 
@@ -153,7 +159,13 @@ body {
   @supports (animation-timeline: view()) {
     .book-notes h2,
     .book-notes h3,
-    .book-notes h4 {
+    .book-notes h4,
+    .book-notes p,
+    .book-notes ul,
+    .book-notes ol,
+    .book-notes blockquote,
+    .book-notes figure,
+    .book-notes table {
       animation-timeline: view();
       animation-range: entry 0% cover 25%;
     }

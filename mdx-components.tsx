@@ -15,12 +15,12 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       <p className="mb-4 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
     ),
     ul: (props) => (
-      <ul className="mb-4 ml-12 list-disc space-y-2 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
+      <ul className="mb-4 ml-16 list-outside list-disc space-y-2 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
     ),
     ol: (props) => (
-      <ol className="mb-4 ml-12 list-decimal space-y-2 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
+      <ol className="mb-4 ml-16 list-outside list-decimal space-y-2 text-xl leading-[2.6] text-slate-700 dark:text-slate-300" {...props} />
     ),
-    li: (props) => <li className="pl-2 leading-[2.6]" {...props} />,
+    li: (props) => <li className="pl-3 leading-[2.6]" {...props} />,
     blockquote: (props) => (
       <blockquote
         className="mb-4 border-l-4 border-indigo-400 bg-indigo-50 py-2 pl-4 text-xl italic text-slate-700 dark:border-indigo-500 dark:bg-indigo-950/40 dark:text-slate-300"
