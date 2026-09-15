@@ -26,9 +26,33 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://chemistry-book.vercel.app"),
   title: "Chemistry Book",
   description:
     "Interactive chemistry from IGCSE through A-Level, connected to Physics, Biology, Mathematics, Environmental Science, Industry, and Everyday Life.",
+  openGraph: {
+    title: "Chemistry Made Simple — From Atoms to Reactions",
+    description:
+      "Interactive chemistry from IGCSE through A-Level, connected to Physics, Biology, Mathematics, Environmental Science, Industry, and Everyday Life.",
+    url: "https://chemistry-book.vercel.app",
+    siteName: "Chemistry Book",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1704,
+        height: 923,
+        alt: "Chemistry Made Simple — From Atoms to Reactions",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chemistry Made Simple — From Atoms to Reactions",
+    description:
+      "Interactive chemistry from IGCSE through A-Level, connected to Physics, Biology, Mathematics, Environmental Science, Industry, and Everyday Life.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
