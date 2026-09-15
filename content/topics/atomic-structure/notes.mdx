@@ -340,6 +340,111 @@ No need to know what the gas even is — Avogadro's Law guarantees the volume-to
 
 Avogadro, a lawyer-turned-scientist, looked at Gay-Lussac's lab data showing gases always combine in clean whole-number volume ratios under fixed temperature and pressure, and proposed the simplest explanation: equal volumes of any gas, under those same fixed conditions, contain equal numbers of particles. That single assumption is what forces volume ratios, molecule ratios, and atom ratios to all stay proportional to each other — it isn't a separate "proportional law," just a direct consequence of the one core idea. From Avogadro's Law comes **molar volume**: the fixed volume that one mole of any gas occupies under specific conditions (22.4 L/mol at STP, or roughly 24 L/mol at room temperature), which lets you convert directly between the volume of a gas and the number of moles it contains.
 
+## Chapter 8 — The Octet Rule, Shells, and Sub-Levels
+
+*Why "8 electrons" isn't the whole story.*
+
+If you've ever been taught the octet rule as "atoms want 8 electrons in their outer shell" and left wondering why 8, why some shells seem to break that rule, and what "shell" even really means compared to "orbit" or "orbital" — this chapter builds it up from the simplest picture to the real mechanism underneath.
+
+**What Is a Shell (or Orbit)?**
+
+Electrons don't float randomly around the nucleus — they exist in layers, called **shells** or **energy levels**, like layers of an onion. The shell closest to the nucleus is shell 1, then shell 2 further out, then shell 3, and so on. Each shell has a maximum number of electrons it can hold — like floors of a building, each with a limited number of rooms.
+
+"Shell" and "orbit" are the same idea, just from the older, simplified **Bohr model** of the atom, where electrons were imagined circling the nucleus along fixed circular paths (orbits), each corresponding to a distinct energy level (shell). In basic chemistry, these two words are used interchangeably.
+
+"Orbital" is a different, more precise term. In the real, modern quantum-mechanical model, electrons don't travel along neat circular paths — each electron instead exists in a fuzzy, cloud-like region of probable locations, called an **orbital**. Each shell is made up of one or more orbitals, grouped into sub-levels. You only need this distinction once you go deeper than basic bonding behavior — for everyday chemistry, "shell" and "orbit" can be treated as the same thing.
+
+**The Maximum Capacity Formula: $2n^2$**
+
+Each shell's maximum electron capacity follows a simple formula:
+
+$$
+\text{maximum electrons in a shell} = 2n^2, \quad \text{where } n \text{ is the shell number}
+$$
+
+- Shell 1 ($n=1$): $2 \times 1^2 = 2$
+- Shell 2 ($n=2$): $2 \times 2^2 = 8$
+- Shell 3 ($n=3$): $2 \times 3^2 = 18$
+- Shell 4 ($n=4$): $2 \times 4^2 = 32$
+
+**The Octet Rule: A Stability Rule, Not a Capacity Rule**
+
+Atoms are more stable — calmer, less reactive — when their **outermost** shell is completely full. For shell 1, that means 2 electrons. For shell 2 and shell 3 (when acting as the outermost shell), that means 8 electrons. Since most common early elements (carbon, nitrogen, oxygen, sodium, chlorine) deal with shell 2 or 3 as their outer boundary, the number 8 comes up constantly — hence the name **octet rule** ("octet" = a group of 8).
+
+An atom with an incomplete outer shell is chemically reactive — it wants to bond with another atom to complete that shell, either by:
+
+- **Sharing** electrons (a **covalent bond**), or
+- **Giving away or taking** electrons entirely (an **ionic bond**)
+
+This is why atoms bond at all — to reach a stable, complete outer shell.
+
+**The Apparent Contradiction: Shell 3 Can Hold 18, So Why Does the Octet Rule Say 8?**
+
+This is where most students get stuck, and it's worth resolving precisely. The $2n^2$ capacity ($18$ for shell 3) and the octet target ($8$) are answering two different questions:
+
+- $2n^2 = 18$ → the *total physical capacity* of shell 3, relevant once it's no longer the outermost shell.
+- Octet rule ($8$) → a *stability target*, applying only to whichever shell is currently **outermost** — regardless of that shell's absolute maximum capacity.
+
+For elements up to around calcium (atomic number 20), when shell 3 is the outermost shell, it only fills to 8 electrons before shell 4 starts being used instead. The rest of shell 3's capacity (up to 18) only gets used later, once shell 3 becomes an *inner* shell in heavier elements.
+
+**Key Takeaway**
+
+The octet rule only ever applies to whichever shell is currently outermost — never to a shell's full $2n^2$ capacity.
+
+**Why Does Shell 3 "Stop" at 8? Sub-Levels and Energy Ordering**
+
+The real mechanism: each shell isn't one single unit — it's divided into **sub-levels**, named $s$, $p$, $d$, $f$, each with its own fixed capacity:
+
+- $s$: up to 2 electrons
+- $p$: up to 6 electrons
+- $d$: up to 10 electrons
+- $f$: up to 14 electrons
+
+Shell number $n$ contains $n$ types of sub-levels, starting from $s$:
+
+- Shell 1: $s$ only → $2$ (matches $2n^2=2$)
+- Shell 2: $s+p$ → $2+6=8$ (matches $2n^2=8$)
+- Shell 3: $s+p+d$ → $2+6+10=18$ (matches $2n^2=18$)
+- Shell 4: $s+p+d+f$ → $2+6+10+14=32$ (matches $2n^2=32$)
+
+Electrons fill the lowest-energy sub-level available first — and energy doesn't rise in tidy shell order. Specifically, **shell 3's $d$ sub-level sits at a higher energy than shell 4's $s$ sub-level.** So once shell 3's $s$ and $p$ sub-levels are full ($2+6=8$ electrons), the next electron skips ahead into shell 4's $s$ sub-level rather than shell 3's $d$ sub-level — which is exactly why shell 3 "stops at 8" while acting as an outer shell. Shell 3's $d$ sub-level only fills in later, once shell 4 has already started, in heavier elements.
+
+The true energy fill order (the **Aufbau principle**, "building-up principle") is:
+
+$$
+1s \to 2s \to 2p \to 3s \to 3p \to 4s \to 3d \to 4p \to 5s \to 4d \to 5p \to 6s \to 4f \to 5d \to 6p \to \dots
+$$
+
+**Worked Example — Chlorine (17 electrons)**
+
+Filling in true energy order: $1s^2\,2s^2\,2p^6\,3s^2\,3p^5$ ($2+2+6+2+5=17$). Grouped by shell: Shell 1 = 2, Shell 2 = 8, Shell 3 = $2+5=7$ → arrangement **2, 8, 7**. Chlorine's outer shell (shell 3) has 7 electrons — 1 short of the octet's 8 — making it highly reactive, eager to gain 1 electron.
+
+**Worked Example — Iron (26 electrons), Past Atomic Number 20**
+
+Filling in true energy order: $1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,4s^2\,3d^6$ ($2+2+6+2+6+2+6=26$). Grouped by shell: Shell 1 = 2, Shell 2 = 8, Shell 3 = $2+6+6=14$, Shell 4 = 2 → arrangement **2, 8, 14, 2**.
+
+Notice shell 3 now holds 14 electrons — more than 8, because it's no longer the outermost shell (shell 4 is). Once a later element pushes past shell 3 and starts filling shell 4, shell 3 quietly continues filling toward its true 18-capacity in the background. This is exactly why elements past atomic number 20 — the **transition metals** — start behaving differently from the simple patterns seen in sodium, chlorine, oxygen, and carbon.
+
+**Full Configuration Table: Elements Past Atomic Numbers 20, 30, 40, 50, 60**
+
+Here's the table with a **Shells (filled electrons)** column added, showing how many electrons sit in each shell, grouped from the full sub-level configuration.
+
+| Atomic # | Element | Electron Configuration | Shells (filled electrons) | Last Sub-level Filled | Next Sub-level Expected |
+| :-: | :-- | :-- | :-- | :-- | :-- |
+| 21 | Scandium (Sc) | $1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,4s^2\,\mathbf{3d^1}$ | Shell 1: 2, Shell 2: 8, Shell 3: 9, Shell 4: 2 | $3d$ — 1 of 10 electrons | $3d$ continues filling (capacity 10); after that, $4p$ (capacity 6) |
+| 31 | Gallium (Ga) | $1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,4s^2\,3d^{10}\,\mathbf{4p^1}$ | Shell 1: 2, Shell 2: 8, Shell 3: 18, Shell 4: 3 | $4p$ — 1 of 6 electrons | $4p$ continues filling (capacity 6); after that, $5s$ (capacity 2) |
+| 41 | Niobium (Nb) | $1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,4s^2\,3d^{10}\,4p^6\,5s^2\,\mathbf{4d^3}$ | Shell 1: 2, Shell 2: 8, Shell 3: 18, Shell 4: 11, Shell 5: 2 | $4d$ — 3 of 10 electrons | $4d$ continues filling (capacity 10); after that, $5p$ (capacity 6) |
+| 51 | Antimony (Sb) | $1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,4s^2\,3d^{10}\,4p^6\,5s^2\,4d^{10}\,\mathbf{5p^3}$ | Shell 1: 2, Shell 2: 8, Shell 3: 18, Shell 4: 18, Shell 5: 5 | $5p$ — 3 of 6 electrons | $5p$ continues filling (capacity 6); after that, $6s$ (capacity 2) |
+| 61 | Promethium (Pm) | $1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,4s^2\,3d^{10}\,4p^6\,5s^2\,4d^{10}\,5p^6\,6s^2\,\mathbf{4f^5}$ | Shell 1: 2, Shell 2: 8, Shell 3: 18, Shell 4: 23, Shell 5: 8, Shell 6: 2 | $4f$ — 5 of 14 electrons | $4f$ continues filling (capacity 14); after that, $5d$ (capacity 10) |
+
+**How the shell totals are built:** each shell's number is the sum of its own sub-levels. For example, niobium's shell 4 = $4s^2 + 4p^6 + 4d^3 = 2+6+3 = 11$ (note: the "4" in "$4d$" refers to shell 4, not shell 5 — a detail worth double-checking carefully, since it's an easy place to slip up). Shell 5 for niobium is just $5s^2 = 2$.
+
+**Worth flagging honestly:** real-world niobium is actually a known exception to the predicted pattern above — its true measured configuration is $4d^4\,5s^1$ instead of $4d^3\,5s^2$, due to a subtle extra-stability effect when a $d$ sub-level gets close to half-full. Several such exceptions exist among the transition metals; the Aufbau order predicts the correct configuration for the large majority of elements, with a handful of memorized special cases like this one.
+
+**Key Takeaway**
+
+Shells and orbits are the same idea — energy layers around the nucleus, each with a theoretical maximum capacity given by $2n^2$. Orbitals are the more precise, modern sub-regions within a shell. The octet rule doesn't care about a shell's full $2n^2$ capacity — it only asks whether the current outermost shell has reached a stable 8 (or 2, for shell 1). Shells are actually built from sub-levels ($s$, $p$, $d$, $f$), each with its own capacity, and electrons fill these in strict energy order (the Aufbau principle) — which is why shell 3 appears to "stop" at 8 while it's the outer shell (its $d$ sub-level is higher energy than shell 4's $s$ sub-level), only filling the rest of its capacity later, once it becomes an inner shell in heavier elements like iron, scandium, and beyond.
+
 ---
 
 **Material — Claude:** [https://claude.ai/chat/e58d8429-d03f-4315-b39c-bc77de06ac00](https://claude.ai/chat/e58d8429-d03f-4315-b39c-bc77de06ac00)
