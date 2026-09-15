@@ -68,7 +68,7 @@ body {
 }
 
 .book-notes h3 {
-  font-size: clamp(1.6rem, 1.4rem + 0.9vw, 2.1rem);
+  font-size: clamp(1.8rem, 1.6rem + 1vw, 2.4rem);
   line-height: 1.25;
   color: #4338ca;
   border-top: 2px solid #c7d2fe;
@@ -79,7 +79,7 @@ body {
 }
 
 .book-notes h4 {
-  font-size: clamp(1.6rem, 1.4rem + 0.9vw, 2rem);
+  font-size: clamp(1.8rem, 1.6rem + 1vw, 2.3rem);
   line-height: 1.25;
   color: #b45309;
   margin-top: 2.5rem;
@@ -89,7 +89,7 @@ body {
    standalone bold one-liners used as mini-headings. */
 .book-notes p:has(> strong:only-child) {
   font-family: var(--font-display), Georgia, serif;
-  font-size: clamp(1.3rem, 1.2rem + 0.45vw, 1.55rem);
+  font-size: clamp(1.6rem, 1.45rem + 0.6vw, 1.95rem);
   color: #3730a3;
   margin-top: 1.75rem;
 }
