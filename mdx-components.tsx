@@ -12,7 +12,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       <h3 className="mt-6 mb-2 text-3xl font-semibold text-slate-900 dark:text-slate-100" {...props} />
     ),
     p: (props) => (
-      <p className="mb-4 text-xl leading-[1.5] text-slate-700 dark:text-slate-300" {...props} />
+      <p className="mb-8 text-xl leading-[1.5] text-slate-700 dark:text-slate-300" {...props} />
     ),
     ul: (props) => (
       <ul className="mb-4 ml-20 list-outside list-disc space-y-5 text-xl leading-[1.5] text-slate-700 dark:text-slate-300" {...props} />
@@ -40,7 +40,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       />
     ),
     table: (props) => (
-      <div className="my-8 overflow-x-auto rounded-2xl border border-slate-200 shadow-md dark:border-slate-800">
+      <div className="my-12 overflow-x-auto rounded-2xl border border-slate-200 shadow-md dark:border-slate-800">
         <table
           className="w-full border-collapse text-left text-xl [&_tbody_tr:last-child>td]:border-b-0 [&_tbody_tr:nth-child(even)]:bg-slate-50/70 dark:[&_tbody_tr:nth-child(even)]:bg-slate-900/40"
           {...props}
